@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="stylesheet.css" />
+</head>
+<body>
+    <h1>Fahrenheit to Celsius</h1>
+    <p>
+        <label>Fahrenheit</label>
+        <input id="inputFahrenheit" type="number" placeholder="Fahrenheit" 
+        oninput="fahrenheitToCelsius(this.value)"
+        onchange="fahrenheitToCelsius(this.value)">
+    </p>
+    <p>Celsius: <span id="outputCelsius"></span></p>
+    <script>
+        function fahrenheitToCelsius(valNum) {
+            valNum = parseFloat(valNum);
+            document.getElementById("outputCelsius").innerHTML = (valNum - 32) / 1.8;
+        }
+    </script>
+
+    <h1>Celsius to Fahrenheit</h1>
+    <p>
+        <label>Celsius</label>
+        <input id="inputCelsius" type="number" placeholder="Celsius" 
+        oninput="celsiusToFahrenheit(this.value)"
+        onchange="celsiusToFahrenheit(this.value)">
+    </p>
+    <p>Fahrenheit: <span id="outputFahrenheit"></span></p>
+    <script>
+        function celsiusToFahrenheit(valNum) {
+            valNum = parseFloat(valNum);
+            document.getElementById("outputFahrenheit").innerHTML = (valNum * 1.8) + 32;
+        }
+    </script>
+</body>
+</html>
