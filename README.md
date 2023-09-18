@@ -4,12 +4,12 @@
 
 This is a simple web application that allows you to convert temperatures between measurements in real-time. Just enter the temperature in Fahrenheit, and the corresponding Celsius value will be displayed automatically.
 ## Table of Contents
-Getting Started
-How It Works 
-Usage 
-Contributing 
-License
-Contact 
+<br>Getting Started</br>
+<br>How It Works</br>
+<br>Usage</br> 
+<br>Contributing</br>
+<br>License</br>
+<br>Contact</br> 
 
 ## Getting Started
 
